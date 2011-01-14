@@ -4,18 +4,18 @@ class Shain
     TANTO = 0
     SHUNIN = 1
     BUCHO = 2
-    def initialize()
-        self.type = type
+    def initialize(type)
+        @type = type
     end
     def standup()
         #if type == self::TANTO
-        if self.type == TANTO
+        if @type == TANTO
             return "Tanto standed up normaly"
-        #elsif type == self::SHUNIN
-        elsif self.type == SHUNIN
+        #elsif type == @SHUNIN
+        elsif @type == SHUNIN
             return "Shunin standed up quickly"
-        #elsif type == self::BUCHO
-        elsif self.type == BUCHO
+        #elsif type == @BUCHO
+        elsif @type == BUCHO
             return "Bucho standed up daru----"
         end
     end
