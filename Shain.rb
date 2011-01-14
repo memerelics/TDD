@@ -7,8 +7,8 @@ class Shain
     def initialize(type)
         self.type = type
     end
-    def standup(title)
-        if self.type == "SHAIN"
+    def standup(type)
+        if self::type == "SHAIN"
             return "Tanto standed up normaly"
         elsif self.type== "SHUNIN"
             return "Shunin standed up quickly"
