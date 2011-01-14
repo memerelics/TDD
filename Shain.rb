@@ -4,7 +4,7 @@ class Shain
     TANTO = 0
     SHUNIN = 1
     BUCHO = 2
-    def initialize(type)
+    def initialize()
         self.type = type
     end
     def standup()
