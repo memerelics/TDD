@@ -8,11 +8,11 @@ class Shain
         self.type = type
     end
     def standup(type)
-        if self::type == "SHAIN"
+        if type == self::TANTO
             return "Tanto standed up normaly"
-        elsif self.type== "SHUNIN"
+        elsif type == self::SHUNIN
             return "Shunin standed up quickly"
-        elsif self.type == "BUCHO"
+        elsif type == self::BUCHO
             return "Bucho standed up daru----"
         end
     end
