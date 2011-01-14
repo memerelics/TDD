@@ -5,7 +5,7 @@ require 'Shain.rb'
 
 class ShainTest < Test::Unit::TestCase
     def testStandup()
-        shain = Shain.new
+        shain = Shain.new(Shain::TANTO)
         assert_equal("Tanto standed up normaly", shain.standup())
     end
     def testStandupforShunin()
