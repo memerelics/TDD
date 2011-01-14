@@ -7,12 +7,15 @@ class Shain
     def initialize(type)
         self.type = type
     end
-    def standup(type)
-        if type == self::TANTO
+    def standup()
+        #if type == self::TANTO
+        if self.type == TANTO
             return "Tanto standed up normaly"
-        elsif type == self::SHUNIN
+        #elsif type == self::SHUNIN
+        elsif self.type == SHUNIN
             return "Shunin standed up quickly"
-        elsif type == self::BUCHO
+        #elsif type == self::BUCHO
+        elsif self.type == BUCHO
             return "Bucho standed up daru----"
         end
     end
